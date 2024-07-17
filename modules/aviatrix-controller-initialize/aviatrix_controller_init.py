@@ -181,7 +181,7 @@ def function_handler(event):
 
 def wait_until_controller_api_server_is_ready(
         hostname="123.123.123.123",
-        api_version="v2",
+        api_version="v3",
         api_route="api",
         total_wait_time=300,
         interval_wait_time=10,
